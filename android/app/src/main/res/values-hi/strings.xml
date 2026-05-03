@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">धान रोग पहचान</string>
+    <string name="header_title">धान रोग पहचान</string>
+    <string name="header_subtitle">एआई आधारित फसल स्वास्थ्य विश्लेषण</string>
+    <string name="instructions">धान की पत्ती की फोटो लें या गैलरी से चुनें, रोग पहचान और उपचार सुझाव पाएं</string>
+    <string name="btn_camera">कैमरा</string>
+    <string name="btn_gallery">गैलरी</string>
+    <string name="btn_live_scan">लाइव स्कैन (AR)</string>
+    <string name="btn_history">स्कैन इतिहास</string>
+    <string name="threshold_label">विश्वास सीमा</string>
+    <string name="threshold_conservative">95%</string>
+    <string name="threshold_balanced">85%</string>
+    <string name="threshold_permissive">80%</string>
+    <string name="select_language">भाषा</string>
+    <string name="language_english">अंग्रेज़ी</string>
+    <string name="language_hindi">हिन्दी</string>
+    <string name="language_kannada">कन्नड़</string>
+    <string name="footer_text">टेंसरफ़्लो लाइट द्वारा संचालित</string>
+
+    <!-- Result Activity -->
+    <string name="diagnosis_label">निदान</string>
+    <string name="btn_scan_another">दूसरी पत्ती स्कैन करें</string>
+    <string name="btn_share">साझा करें</string>
+    <string name="btn_save_scan">इतिहास में सहेजें</string>
+    <string name="scan_saved">स्कैन इतिहास में सहेजा गया</string>
+    <string name="scan_save_failed">स्कैन सहेज नहीं सका</string>
+
+    <!-- Treatment Sections -->
+    <string name="symptoms_label">लक्षण</string>
+    <string name="immediate_label">तत्काल कार्रवाई</string>
+    <string name="chemical_label">रासायनिक उपचार</string>
+    <string name="cultural_label">कृषि पद्धतियां</string>
+    <string name="prevention_label">रोकथाम</string>
+
+    <!-- Messages -->
+    <string name="error_model_load">एआई मॉडल लोड नहीं हुआ। कृपया एप पुनः इंस्टॉल करें।</string>
+    <string name="error_image_load">छवि लोड नहीं हो पाई</string>
+    <string name="error_classification">छवि का विश्लेषण नहीं हो पाया</string>
+    <string name="permission_camera_required">कैमरा अनुमति आवश्यक है</string>
+    <string name="permission_camera_rationale">पत्ती की तस्वीर लेने के लिए कैमरा अनुमति आवश्यक है</string>
+    <string name="warning_not_rice_leaf">⚠️ यह धान की पत्ती नहीं लगती। कृपया अच्छी रोशनी में धान की पत्ती पर कैमरा रखें।</string>
+    <string name="warning_low_confidence">⚠️ पहचान विश्वास कम है। पत्ती की स्पष्ट फ़ोटो लेने का प्रयास करें।</string>
+    <string name="format_confidence">विश्वास: %1$.1f%%</string>
+    <string name="format_inference">इन्फरेंस: %1$dms</string>
+    <string name="healthy_recommendation">✅ अच्छी खबर! आपकी धान फसल स्वस्थ दिख रही है।\n\nसुझाव:\n• नियमित निगरानी जारी रखें\n• उचित सिंचाई बनाए रखें\n• अच्छी कृषि पद्धतियां अपनाएं\n• हर सप्ताह शुरुआती रोग संकेत जांचें</string>
+    <string name="share_header">🌾 धान रोग पहचान परिणाम</string>
+    <string name="share_diagnosis">निदान: %1$s</string>
+    <string name="share_confidence">विश्वास: %1$s%%</string>
+    <string name="share_footer">Rice Disease Detector ऐप द्वारा पहचाना गया</string>
+    <string name="share_title">परिणाम साझा करें</string>
+
+    <!-- Live scan -->
+    <string name="live_scan_title">लाइव स्कैन मोड</string>
+    <string name="ar_badge">AR</string>
+    <string name="inference_time_label">इन्फरेंस समय</string>
+    <string name="model_label">मॉडल</string>
+    <string name="model_name">EfficientNetB0</string>
+    <string name="classes_label">वर्ग</string>
+    <string name="classes_count">6</string>
+    <string name="capture_save">कैप्चर और सेव</string>
+    <string name="view_treatment">उपचार देखें</string>
+    <string name="scan_instruction">कैमरा धान की पत्ती पर रखें</string>
+    <string name="not_rice_leaf">यह धान की पत्ती नहीं है</string>
+    <string name="not_rice_leaf_hint">स्कैन करने के लिए धान की पत्ती पर कैमरा रखें</string>
+    <string name="status_scanning">स्कैन हो रहा है…</string>
+    <string name="status_confidence">विश्वास</string>
+    <string name="status_not_applicable">लागू नहीं</string>
+
+    <!-- Bottom sheet -->
+    <string name="sheet_description">विवरण</string>
+    <string name="sheet_symptoms">लक्षण</string>
+    <string name="sheet_chemical_control">रासायनिक नियंत्रण</string>
+    <string name="sheet_preventive_measures">रोकथाम उपाय</string>
+    <string name="sheet_got_it">ठीक है</string>
+    <string name="sheet_no_info">जानकारी उपलब्ध नहीं</string>
+    <string name="sheet_severity">गंभीरता: %1$s</string>
+
+    <!-- Scan History -->
+    <string name="history_title">स्कैन इतिहास</string>
+    <string name="history_empty">अभी तक कोई स्कैन नहीं।\nपहली पत्ती जांचने के लिए कैमरा इस्तेमाल करें!</string>
+    <string name="history_filter_all">सभी</string>
+    <string name="history_filter_healthy">स्वस्थ</string>
+    <string name="history_filter_diseased">रोगग्रस्त</string>
+    <string name="history_delete">हटाएं</string>
+    <string name="history_delete_confirm">यह स्कैन हटाएं?</string>
+    <string name="history_delete_all">सब हटाएं</string>
+    <string name="history_delete_all_confirm">सारा स्कैन इतिहास हटाएं?</string>
+    <string name="history_trend_label">स्वास्थ्य प्रवृत्ति</string>
+    <string name="history_healthy_scans">%1$d स्वस्थ</string>
+    <string name="history_diseased_scans">%1$d रोगग्रस्त</string>
+    <string name="format_date">%1$s</string>
+</resources>

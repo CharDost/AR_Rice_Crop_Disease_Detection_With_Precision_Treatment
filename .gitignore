@@ -1,0 +1,70 @@
+# ─── Python ──────────────────────────────────────────────────────────────────
+venv/
+env/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.ipynb_checkpoints/
+*.ipynb
+
+# ─── Environment / Secrets ───────────────────────────────────────────────────
+.env
+*.env.local
+
+# ─── ML Model binaries (tracked on models-only branch via Git LFS) ───────────
+*.h5
+*.keras
+*.tflite
+*.pb
+*.ckpt
+*.pth
+
+# ─── Dataset images (tracked on full-data-chunked branch via Git LFS) ────────
+Dataset/
+Dataset_clean_6class/
+# allow placeholder keep files
+!**/.gitkeep
+
+# ─── Android build output ────────────────────────────────────────────────────
+android/app/build/
+android/build/
+android/.gradle/
+android/local.properties
+*.apk
+*.aab
+*.ap_
+
+# ─── Gradle wrapper caches ───────────────────────────────────────────────────
+.gradle/
+build/
+
+# ─── IDE / OS ─────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── Logs & temp ─────────────────────────────────────────────────────────────
+logs/
+*.log
+tmp/
+temp/
+*.tmp
+
+# ─── Generated analysis / figure outputs (not source) ────────────────────────
+confidence_analysis/
+diagnosis_results/
+figures/
+gradcam_results/
+demo_images/
+push_temp/
+dataset_check_temp/
+review-main-temp/
+merge-temp/
+android-only-temp/

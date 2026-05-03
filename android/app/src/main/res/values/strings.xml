@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Rice Disease Detector</string>
+
+    <!-- Main Activity -->
+    <string name="header_title">Rice Disease Detector</string>
+    <string name="header_subtitle">AI-Powered Crop Health Analysis</string>
+    <string name="instructions">Take a photo or select an image of a rice leaf to detect diseases and get treatment recommendations</string>
+    <string name="btn_camera">Camera</string>
+    <string name="btn_gallery">Gallery</string>
+    <string name="btn_live_scan">Live Scan (AR)</string>
+    <string name="btn_history">Scan History</string>
+    <string name="threshold_label">Confidence Threshold</string>
+    <string name="threshold_conservative">95%</string>
+    <string name="threshold_balanced">85%</string>
+    <string name="threshold_permissive">80%</string>
+    <string name="select_language">Language</string>
+    <string name="language_english">English</string>
+    <string name="language_hindi">Hindi</string>
+    <string name="language_kannada">Kannada</string>
+    <string name="footer_text">Powered by TensorFlow Lite · EfficientNetB0</string>
+
+    <!-- Result Activity -->
+    <string name="diagnosis_label">DIAGNOSIS</string>
+    <string name="btn_scan_another">Scan Another</string>
+    <string name="btn_share">Share</string>
+    <string name="btn_save_scan">Save to History</string>
+    <string name="scan_saved">Scan saved to history</string>
+    <string name="scan_save_failed">Could not save scan</string>
+
+    <!-- Treatment Sections -->
+    <string name="symptoms_label">SYMPTOMS</string>
+    <string name="immediate_label">IMMEDIATE ACTIONS</string>
+    <string name="chemical_label">CHEMICAL TREATMENT</string>
+    <string name="cultural_label">CULTURAL PRACTICES</string>
+    <string name="prevention_label">PREVENTION</string>
+
+    <!-- Messages -->
+    <string name="error_model_load">Failed to load AI model. Please reinstall the app.</string>
+    <string name="error_image_load">Failed to load image</string>
+    <string name="error_classification">Error analyzing image</string>
+    <string name="permission_camera_required">Camera permission required</string>
+    <string name="permission_camera_rationale">Camera permission is needed to capture leaf images</string>
+    <string name="warning_not_rice_leaf">⚠️ This doesn&#8217;t appear to be a rice leaf. Please point the camera at a rice leaf in good lighting.</string>
+    <string name="warning_low_confidence">⚠️ Prediction confidence is low. Try capturing a clearer, well-lit image of the leaf.</string>
+
+    <!-- Share -->
+    <string name="share_title">Share Result</string>
+    <string name="format_confidence">Confidence: %1$.1f%%</string>
+    <string name="format_inference">Inference: %1$dms</string>
+    <string name="healthy_recommendation">✅ Good news! Your rice plant appears healthy.\n\nRecommendations:\n• Continue regular monitoring\n• Maintain proper irrigation\n• Follow good agricultural practices\n• Scout for early disease signs weekly</string>
+    <string name="share_header">🌾 Rice Disease Detection Result</string>
+    <string name="share_diagnosis">Diagnosis: %1$s</string>
+    <string name="share_confidence">Confidence: %1$s%%</string>
+    <string name="share_footer">Detected using Rice Disease Detector App</string>
+
+    <!-- Live scan -->
+    <string name="live_scan_title">Live Scan Mode</string>
+    <string name="ar_badge">AR</string>
+    <string name="inference_time_label">Inference Time</string>
+    <string name="model_label">Model</string>
+    <string name="model_name">EfficientNetB0</string>
+    <string name="classes_label">Classes</string>
+    <string name="classes_count">6</string>
+    <string name="capture_save">Capture and Save</string>
+    <string name="view_treatment">View Treatment</string>
+    <string name="scan_instruction">Point camera at a rice leaf</string>
+    <string name="not_rice_leaf">Not a Rice Leaf</string>
+    <string name="not_rice_leaf_hint">Point at a rice leaf to scan</string>
+    <string name="status_scanning">Scanning…</string>
+    <string name="status_confidence">confidence</string>
+    <string name="status_not_applicable">N/A</string>
+
+    <!-- Bottom sheet -->
+    <string name="sheet_description">Description</string>
+    <string name="sheet_symptoms">Symptoms</string>
+    <string name="sheet_chemical_control">Chemical Control</string>
+    <string name="sheet_preventive_measures">Preventive Measures</string>
+    <string name="sheet_got_it">Got it</string>
+    <string name="sheet_no_info">No information available</string>
+    <string name="sheet_severity">Severity: %1$s</string>
+
+    <!-- Scan History -->
+    <string name="history_title">Scan History</string>
+    <string name="history_empty">No scans yet.\nUse the camera to diagnose your first leaf!</string>
+    <string name="history_filter_all">All</string>
+    <string name="history_filter_healthy">Healthy</string>
+    <string name="history_filter_diseased">Diseased</string>
+    <string name="history_delete">Delete</string>
+    <string name="history_delete_confirm">Delete this scan?</string>
+    <string name="history_delete_all">Clear All</string>
+    <string name="history_delete_all_confirm">Delete all scan history?</string>
+    <string name="history_trend_label">Health Trend</string>
+    <string name="history_healthy_scans">%1$d healthy</string>
+    <string name="history_diseased_scans">%1$d diseased</string>
+    <string name="format_date">%1$s</string>
+</resources>

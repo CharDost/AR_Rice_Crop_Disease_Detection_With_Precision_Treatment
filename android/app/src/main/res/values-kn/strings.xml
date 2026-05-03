@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ಭತ್ತದ ರೋಗ ಪತ್ತೆ</string>
+    <string name="header_title">ಭತ್ತದ ರೋಗ ಪತ್ತೆ</string>
+    <string name="header_subtitle">ಎಐ ಆಧಾರಿತ ಬೆಳೆ ಆರೋಗ್ಯ ವಿಶ್ಲೇಷಣೆ</string>
+    <string name="instructions">ಭತ್ತದ ಎಲೆಯ ಫೋಟೋ ತೆಗೆಯಿರಿ ಅಥವಾ ಗ್ಯಾಲರಿಯಿಂದ ಆಯ್ಕೆ ಮಾಡಿ, ರೋಗ ಪತ್ತೆ ಮತ್ತು ಚಿಕಿತ್ಸಾ ಸಲಹೆ ಪಡೆಯಿರಿ</string>
+    <string name="btn_camera">ಕ್ಯಾಮೆರಾ</string>
+    <string name="btn_gallery">ಗ್ಯಾಲರಿ</string>
+    <string name="btn_live_scan">ಲೈವ್ ಸ್ಕ್ಯಾನ್ (AR)</string>
+    <string name="btn_history">ಸ್ಕ್ಯಾನ್ ಇತಿಹಾಸ</string>
+    <string name="threshold_label">ವಿಶ್ವಾಸ ಮಿತಿ</string>
+    <string name="threshold_conservative">95%</string>
+    <string name="threshold_balanced">85%</string>
+    <string name="threshold_permissive">80%</string>
+    <string name="select_language">ಭಾಷೆ</string>
+    <string name="language_english">ಇಂಗ್ಲಿಷ್</string>
+    <string name="language_hindi">ಹಿಂದಿ</string>
+    <string name="language_kannada">ಕನ್ನಡ</string>
+    <string name="footer_text">TensorFlow Lite ನಿಂದ ಚಾಲಿತ</string>
+
+    <!-- Result Activity -->
+    <string name="diagnosis_label">ರೋಗ ನಿರ್ಧಾರ</string>
+    <string name="btn_scan_another">ಮತ್ತೊಂದು ಸ್ಕ್ಯಾನ್</string>
+    <string name="btn_share">ಹಂಚಿಕೊಳ್ಳಿ</string>
+    <string name="btn_save_scan">ಇತಿಹಾಸಕ್ಕೆ ಉಳಿಸಿ</string>
+    <string name="scan_saved">ಸ್ಕ್ಯಾನ್ ಇತಿಹಾಸಕ್ಕೆ ಉಳಿಸಲಾಗಿದೆ</string>
+    <string name="scan_save_failed">ಸ್ಕ್ಯಾನ್ ಉಳಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ</string>
+
+    <!-- Treatment Sections -->
+    <string name="symptoms_label">ಲಕ್ಷಣಗಳು</string>
+    <string name="immediate_label">ತಕ್ಷಣದ ಕ್ರಮಗಳು</string>
+    <string name="chemical_label">ರಾಸಾಯನಿಕ ಚಿಕಿತ್ಸೆ</string>
+    <string name="cultural_label">ಕೃಷಿ ಪದ್ಧತಿಗಳು</string>
+    <string name="prevention_label">ತಡೆಗಟ್ಟುವಿಕೆ</string>
+
+    <!-- Messages -->
+    <string name="error_model_load">ಎಐ ಮಾದರಿ ಲೋಡ್ ಆಗಲಿಲ್ಲ। ಅಪ್ಲಿಕೇಶನ್ ಮರುಇನ್‌ಸ್ಟಾಲ್ ಮಾಡಿ.</string>
+    <string name="error_image_load">ಚಿತ್ರ ಲೋಡ್ ಆಗಲಿಲ್ಲ</string>
+    <string name="error_classification">ಚಿತ್ರ ವಿಶ್ಲೇಷಣೆ ದೋಷ</string>
+    <string name="permission_camera_required">ಕ್ಯಾಮೆರಾ ಅನುಮತಿ ಅಗತ್ಯ</string>
+    <string name="permission_camera_rationale">ಎಲೆಯ ಫೋಟೋ ತೆಗೆಯಲು ಕ್ಯಾಮೆರಾ ಅನುಮತಿ ಬೇಕು</string>
+    <string name="warning_not_rice_leaf">⚠️ ಇದು ಭತ್ತದ ಎಲೆ ಅಲ್ಲ। ಉತ್ತಮ ಬೆಳಕಿನಲ್ಲಿ ಭತ್ತದ ಎಲೆಯತ್ತ ಕ್ಯಾಮೆರಾ ಗುರಿ ಮಾಡಿ.</string>
+    <string name="warning_low_confidence">⚠️ ಪತ್ತೆ ವಿಶ್ವಾಸ ಕಡಿಮೆ। ಸ್ಪಷ್ಟವಾದ ಎಲೆ ಫೋಟೋ ತೆಗೆಯಲು ಪ್ರಯತ್ನಿಸಿ.</string>
+    <string name="format_confidence">ವಿಶ್ವಾಸ: %1$.1f%%</string>
+    <string name="format_inference">ಇನ್ಫರೆನ್ಸ್: %1$dms</string>
+    <string name="healthy_recommendation">✅ ಶುಭ ಸುದ್ದಿ! ನಿಮ್ಮ ಭತ್ತದ ಗಿಡ ಆರೋಗ್ಯವಾಗಿದೆ.\n\nಸಲಹೆಗಳು:\n• ನಿಯಮಿತ ಮೇಲ್ವಿಚಾರಣೆ ಮುಂದುವರಿಸಿ\n• ಸರಿಯಾದ ನೀರಾವರಿ ಕಾಪಾಡಿ\n• ಉತ್ತಮ ಕೃಷಿ ಪದ್ಧತಿ ಅನುಸರಿಸಿ\n• ಪ್ರತಿ ವಾರ ರೋಗ ಲಕ್ಷಣ ಪರಿಶೀಲಿಸಿ</string>
+    <string name="share_header">🌾 ಭತ್ತದ ರೋಗ ಪತ್ತೆ ಫಲಿತಾಂಶ</string>
+    <string name="share_diagnosis">ರೋಗ ನಿರ್ಧಾರ: %1$s</string>
+    <string name="share_confidence">ವಿಶ್ವಾಸ: %1$s%%</string>
+    <string name="share_footer">Rice Disease Detector ಅಪ್ಲಿಕೇಶನ್‌ನಿಂದ ಪತ್ತೆ</string>
+    <string name="share_title">ಫಲಿತಾಂಶ ಹಂಚಿಕೊಳ್ಳಿ</string>
+
+    <!-- Live scan -->
+    <string name="live_scan_title">ಲೈವ್ ಸ್ಕ್ಯಾನ್ ಮೋಡ್</string>
+    <string name="ar_badge">AR</string>
+    <string name="inference_time_label">ಇನ್ಫರೆನ್ಸ್ ಸಮಯ</string>
+    <string name="model_label">ಮಾದರಿ</string>
+    <string name="model_name">EfficientNetB0</string>
+    <string name="classes_label">ವರ್ಗಗಳು</string>
+    <string name="classes_count">6</string>
+    <string name="capture_save">ಕ್ಯಾಪ್ಚರ್ ಮತ್ತು ಉಳಿಸಿ</string>
+    <string name="view_treatment">ಚಿಕಿತ್ಸೆ ನೋಡಿ</string>
+    <string name="scan_instruction">ಕ್ಯಾಮೆರಾವನ್ನು ಭತ್ತದ ಎಲೆಯತ್ತ ಗುರಿ ಮಾಡಿ</string>
+    <string name="not_rice_leaf">ಇದು ಭತ್ತದ ಎಲೆ ಅಲ್ಲ</string>
+    <string name="not_rice_leaf_hint">ಸ್ಕ್ಯಾನ್ ಮಾಡಲು ಭತ್ತದ ಎಲೆಯತ್ತ ಕ್ಯಾಮೆರಾ ಗುರಿ ಮಾಡಿ</string>
+    <string name="status_scanning">ಸ್ಕ್ಯಾನ್ ಆಗುತ್ತಿದೆ…</string>
+    <string name="status_confidence">ವಿಶ್ವಾಸ</string>
+    <string name="status_not_applicable">ಅನ್ವಯಿಸುವುದಿಲ್ಲ</string>
+
+    <!-- Bottom sheet -->
+    <string name="sheet_description">ವಿವರಣೆ</string>
+    <string name="sheet_symptoms">ಲಕ್ಷಣಗಳು</string>
+    <string name="sheet_chemical_control">ರಾಸಾಯನಿಕ ನಿಯಂತ್ರಣ</string>
+    <string name="sheet_preventive_measures">ತಡೆಗಟ್ಟುವ ಕ್ರಮಗಳು</string>
+    <string name="sheet_got_it">ಸರಿ</string>
+    <string name="sheet_no_info">ಮಾಹಿತಿ ಲಭ್ಯವಿಲ್ಲ</string>
+    <string name="sheet_severity">ತೀವ್ರತೆ: %1$s</string>
+
+    <!-- Scan History -->
+    <string name="history_title">ಸ್ಕ್ಯಾನ್ ಇತಿಹಾಸ</string>
+    <string name="history_empty">ಇನ್ನೂ ಸ್ಕ್ಯಾನ್ ಇಲ್ಲ.\nಮೊದಲ ಎಲೆ ಪರಿಶೀಲಿಸಲು ಕ್ಯಾಮೆರಾ ಬಳಸಿ!</string>
+    <string name="history_filter_all">ಎಲ್ಲಾ</string>
+    <string name="history_filter_healthy">ಆರೋಗ್ಯಕರ</string>
+    <string name="history_filter_diseased">ರೋಗಗ್ರಸ್ತ</string>
+    <string name="history_delete">ಅಳಿಸಿ</string>
+    <string name="history_delete_confirm">ಈ ಸ್ಕ್ಯಾನ್ ಅಳಿಸಲೇ?</string>
+    <string name="history_delete_all">ಎಲ್ಲಾ ಅಳಿಸಿ</string>
+    <string name="history_delete_all_confirm">ಸಂಪೂರ್ಣ ಸ್ಕ್ಯಾನ್ ಇತಿಹಾಸ ಅಳಿಸಲೇ?</string>
+    <string name="history_trend_label">ಆರೋಗ್ಯ ಪ್ರವೃತ್ತಿ</string>
+    <string name="history_healthy_scans">%1$d ಆರೋಗ್ಯಕರ</string>
+    <string name="history_diseased_scans">%1$d ರೋಗಗ್ರಸ್ತ</string>
+    <string name="format_date">%1$s</string>
+</resources>

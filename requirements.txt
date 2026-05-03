@@ -1,0 +1,42 @@
+# CropShield - Rice Disease Detection — Full Requirements
+
+# Core
+numpy>=1.24.0
+pandas>=2.0.0
+pillow>=10.0.0
+opencv-python>=4.8.0
+tqdm>=4.65.0
+
+# Data Collection APIs
+pyinaturalist>=0.18.0
+flickrapi>=2.4.0
+requests>=2.31.0
+
+# Image Processing & Quality Filtering
+scikit-image>=0.21.0
+imagehash>=4.3.1
+scipy>=1.11.0
+
+# Data Augmentation
+albumentations>=1.3.0
+
+# ML Training & Evaluation
+tensorflow>=2.14.0
+keras>=2.14.0
+
+# ML Utilities — used in evaluation, calibration, and safeguard scripts
+# scikit-learn was MISSING from original requirements.txt despite being used
+# in scripts: evaluate_inference_safeguards.py, train_robust_clean.py,
+# calibrate_and_validate.py, diagnose_overfitting.py
+scikit-learn>=1.3.0
+
+# Web App (Streamlit dashboard)
+streamlit>=1.28.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Utilities
+python-dotenv>=1.0.0
+pyyaml>=6.0

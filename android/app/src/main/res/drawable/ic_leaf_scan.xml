@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    
+    <!-- Background circle -->
+    <path
+        android:pathData="M100,100m-90,0a90,90 0,1 1,180 0a90,90 0,1 1,-180 0"
+        android:fillColor="#E8F5E9"/>
+    
+    <!-- Leaf shape -->
+    <path
+        android:pathData="M100,40
+                         C120,50 140,70 145,100
+                         C150,130 140,150 100,170
+                         C60,150 50,130 55,100
+                         C60,70 80,50 100,40Z"
+        android:fillColor="#4CAF50"/>
+    
+    <!-- Leaf vein - main -->
+    <path
+        android:pathData="M100,50 L100,160"
+        android:strokeColor="#388E3C"
+        android:strokeWidth="2"/>
+    
+    <!-- Leaf veins - left -->
+    <path
+        android:pathData="M100,70 L70,85"
+        android:strokeColor="#388E3C"
+        android:strokeWidth="1.5"/>
+    <path
+        android:pathData="M100,100 L65,110"
+        android:strokeColor="#388E3C"
+        android:strokeWidth="1.5"/>
+    <path
+        android:pathData="M100,130 L70,135"
+        android:strokeColor="#388E3C"
+        android:strokeWidth="1.5"/>
+    
+    <!-- Leaf veins - right -->
+    <path
+        android:pathData="M100,70 L130,85"
+        android:strokeColor="#388E3C"
+        android:strokeWidth="1.5"/>
+    <path
+        android:pathData="M100,100 L135,110"
+        android:strokeColor="#388E3C"
+        android:strokeWidth="1.5"/>
+    <path
+        android:pathData="M100,130 L130,135"
+        android:strokeColor="#388E3C"
+        android:strokeWidth="1.5"/>
+    
+    <!-- Scanning effect - corner brackets -->
+    <path
+        android:pathData="M35,35 L35,55 M35,35 L55,35"
+        android:strokeColor="#2196F3"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"/>
+    <path
+        android:pathData="M165,35 L165,55 M165,35 L145,35"
+        android:strokeColor="#2196F3"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"/>
+    <path
+        android:pathData="M35,165 L35,145 M35,165 L55,165"
+        android:strokeColor="#2196F3"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"/>
+    <path
+        android:pathData="M165,165 L165,145 M165,165 L145,165"
+        android:strokeColor="#2196F3"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"/>
+    
+</vector>

@@ -1,0 +1,174 @@
+{
+  "bacterial_blight": {
+    "display_name": "Bacterial Blight",
+    "scientific_name": "Xanthomonas oryzae pv. oryzae",
+    "severity": "High",
+    "symptoms": [
+      "Water-soaked lesions on leaf margins",
+      "Yellow to white lesions along leaf veins",
+      "Wilting and drying of leaves",
+      "Bacterial ooze in humid conditions"
+    ],
+    "treatment": {
+      "immediate": [
+        "Remove and destroy infected plant parts",
+        "Avoid overhead irrigation",
+        "Reduce nitrogen fertilization"
+      ],
+      "chemical": [
+        "Copper hydroxide: 2g per liter of water, every 7-10 days",
+        "Streptomycin sulfate: 0.5g per liter of water, every 10-14 days"
+      ],
+      "cultural": [
+        "Use certified disease-free seeds",
+        "Plant resistant varieties (e.g., IR64, IRBB21)",
+        "Maintain proper spacing between plants",
+        "Avoid excessive nitrogen application"
+      ]
+    },
+    "prevention": [
+      "Use resistant varieties",
+      "Treat seeds with hot water (52°C for 10 minutes)",
+      "Maintain field sanitation",
+      "Balance nitrogen fertilization"
+    ]
+  },
+  "blast": {
+    "display_name": "Blast",
+    "scientific_name": "Magnaporthe oryzae",
+    "severity": "High",
+    "symptoms": [
+      "Diamond-shaped lesions with gray centers",
+      "Lesions on leaves, nodes, and panicles",
+      "White to gray-green lesions on leaves",
+      "Neck rot causing panicle breakage"
+    ],
+    "treatment": {
+      "immediate": [
+        "Remove infected plant debris",
+        "Drain excess water from fields",
+        "Avoid late-season nitrogen application"
+      ],
+      "chemical": [
+        "Tricyclazole: 0.6g per liter of water, preventive spray",
+        "Isoprothiolane: 1.5ml per liter of water, every 7-10 days",
+        "Carbendazim: 1g per liter of water, every 10-14 days"
+      ],
+      "cultural": [
+        "Apply balanced fertilization (avoid excess nitrogen)",
+        "Maintain optimal plant spacing",
+        "Use silicon-rich fertilizers",
+        "Avoid water stress"
+      ]
+    },
+    "prevention": [
+      "Plant resistant varieties",
+      "Use certified seeds",
+      "Treat seeds with fungicides",
+      "Maintain proper plant nutrition"
+    ]
+  },
+  "brown_spot": {
+    "display_name": "Brown Spot",
+    "scientific_name": "Bipolaris oryzae",
+    "severity": "Medium",
+    "symptoms": [
+      "Small, circular brown spots on leaves",
+      "Spots with gray or white centers",
+      "Dark brown margins around lesions",
+      "Seeds may show brown discoloration"
+    ],
+    "treatment": {
+      "immediate": [
+        "Improve soil fertility",
+        "Apply potassium fertilizers",
+        "Remove infected plant debris"
+      ],
+      "chemical": [
+        "Mancozeb: 2.5g per liter of water, every 7-10 days",
+        "Propiconazole: 1ml per liter of water, every 10-14 days",
+        "Carbendazim: 1g per liter of water, as preventive spray"
+      ],
+      "cultural": [
+        "Maintain adequate soil fertility",
+        "Apply balanced N-P-K fertilizers",
+        "Improve drainage in waterlogged areas",
+        "Use proper seed rate"
+      ]
+    },
+    "prevention": [
+      "Use healthy and treated seeds",
+      "Maintain adequate soil nutrition",
+      "Practice crop rotation",
+      "Avoid water stress during grain filling"
+    ]
+  },
+  "healthy": {
+    "display_name": "Healthy",
+    "scientific_name": "No pathogen detected",
+    "severity": "None",
+    "symptoms": [
+      "No visible disease symptoms",
+      "Healthy green coloration",
+      "Normal leaf structure",
+      "Vigorous plant growth"
+    ],
+    "treatment": {
+      "immediate": [
+        "Continue regular monitoring",
+        "Maintain current cultural practices"
+      ],
+      "chemical": [
+        "No chemical treatment required",
+        "Consider preventive fungicide if disease pressure is high in area"
+      ],
+      "cultural": [
+        "Maintain balanced fertilization",
+        "Ensure proper irrigation",
+        "Practice good field hygiene",
+        "Monitor neighboring fields for disease"
+      ]
+    },
+    "prevention": [
+      "Continue regular field scouting",
+      "Use certified seeds",
+      "Maintain proper plant nutrition",
+      "Practice integrated pest management"
+    ]
+  },
+  "hispa": {
+    "display_name": "Hispa",
+    "scientific_name": "Dicladispa armigera",
+    "severity": "Medium",
+    "symptoms": [
+      "White streaks parallel to leaf veins",
+      "Scraping damage on upper leaf surface",
+      "Tunnels made by larvae inside leaves",
+      "Leaves appear whitish and dried"
+    ],
+    "treatment": {
+      "immediate": [
+        "Handpick and destroy adult beetles",
+        "Remove egg masses from leaves",
+        "Cut and destroy heavily infested leaves"
+      ],
+      "chemical": [
+        "Chlorpyrifos: 2ml per liter of water, as foliar spray",
+        "Quinalphos: 2ml per liter of water, every 10-14 days",
+        "Cartap hydrochloride: 1g per liter of water"
+      ],
+      "cultural": [
+        "Avoid excessive use of nitrogen",
+        "Maintain proper water management",
+        "Use light traps to monitor adult population",
+        "Encourage natural predators"
+      ]
+    },
+    "prevention": [
+      "Plant early to avoid peak pest season",
+      "Use resistant varieties if available",
+      "Maintain clean bunds and field margins",
+      "Practice balanced fertilization"
+    ]
+  }
+}

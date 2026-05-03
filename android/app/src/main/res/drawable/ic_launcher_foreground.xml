@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Rice plant / leaf icon centered in adaptive icon safe zone -->
+    <!-- Safe zone is center 66dp of 108dp (21dp margin each side) -->
+    
+    <!-- Leaf shape -->
+    <path
+        android:pathData="M54,28
+                         C64,33 72,43 75,54
+                         C78,65 74,75 54,85
+                         C34,75 30,65 33,54
+                         C36,43 44,33 54,28Z"
+        android:fillColor="#FFFFFF"/>
+    
+    <!-- Leaf vein - main -->
+    <path
+        android:pathData="M54,32 L54,80"
+        android:strokeColor="#388E3C"
+        android:strokeWidth="1.5"/>
+    
+    <!-- Leaf veins -->
+    <path
+        android:pathData="M54,42 L42,48"
+        android:strokeColor="#388E3C"
+        android:strokeWidth="1"/>
+    <path
+        android:pathData="M54,54 L40,58"
+        android:strokeColor="#388E3C"
+        android:strokeWidth="1"/>
+    <path
+        android:pathData="M54,66 L42,68"
+        android:strokeColor="#388E3C"
+        android:strokeWidth="1"/>
+    
+    <path
+        android:pathData="M54,42 L66,48"
+        android:strokeColor="#388E3C"
+        android:strokeWidth="1"/>
+    <path
+        android:pathData="M54,54 L68,58"
+        android:strokeColor="#388E3C"
+        android:strokeWidth="1"/>
+    <path
+        android:pathData="M54,66 L66,68"
+        android:strokeColor="#388E3C"
+        android:strokeWidth="1"/>
+    
+</vector>
