@@ -3,6 +3,8 @@
 ## 1. Project Overview
 End-to-end rice leaf disease detection: clean data pipeline → MobileNetV3Small TFLite → Android AR app.
 
+**Dataset (External):** [notnova/Rice_Leaf_Dataset](https://huggingface.co/datasets/notnova/Rice_Leaf_Dataset) (2.3 GB)
+
 ### Target classes
 - bacterial_blight | blast | brown_spot | healthy | hispa
 
